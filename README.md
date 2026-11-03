@@ -1,8 +1,8 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0E9F8E,50:136F63,100:1C3C3C&height=220&section=header&text=Jayakrishnan%20B&fontSize=52&fontColor=FFFFFF&animation=fadeIn&fontAlignY=36&desc=LLM%20agents%20%E2%80%A2%20AI%20quality%20engineering%20%E2%80%A2%20computer%20vision&descSize=18&descAlignY=58" width="100%" alt="Jayakrishnan B" />
+<img src="./assets/header.svg" width="100%" alt="The Jayakrishnan Times: local grad builds AI that spots wrinkles, vertebrae and bugs. Tamil Nadu, India. Open to opportunities." />
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=0E9F8E&center=true&vCenter=true&width=640&lines=%3E+building+agents+that+call+tools+and+cite+sources;%3E+then+trying+very+hard+to+break+them;%3E+evals+%E2%80%A2+red-teaming+%E2%80%A2+regression+gates+in+CI;%3E+YOLOv8+models+that+see+wrinkles+and+vertebrae;%3E+if+it+isn't+measured%2C+it+isn't+done" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=0E9F8E&center=true&vCenter=true&width=640&lines=%3E+I+build+AI+apps+that+think%2C+see+and+ship;%3E+LLM+agents+%E2%80%A2+computer+vision+%E2%80%A2+full-stack+web;%3E+YOLOv8+models+that+spot+wrinkles+and+vertebrae;%3E+if+it+isn't+tested%2C+it+isn't+done" alt="I build AI apps that think, see and ship" />
 
 <br/>
 
@@ -10,238 +10,224 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-visit-0E9F8E?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-jk-two.vercel.app)
 [![Email](https://img.shields.io/badge/Email-say_hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jayakrishxn@gmail.com)
 <br/>
-[![Followers](https://img.shields.io/github/followers/Jrkrish?style=flat-square&label=followers&color=0E9F8E&labelColor=1C3C3C)](https://github.com/Jrkrish)
 <img src="https://komarev.com/ghpvc/?username=Jrkrish&style=flat-square&color=0E9F8E&label=profile+views" alt="Profile views" />
 
 </div>
 
 ---
 
-## `$ whoami`
+## 👋 About me
 
-```python
-class Jayakrishnan:
-    education = "B.Tech Information Technology · Sri Manakula Vinayagar Engineering College, Puducherry"
-    graduated = 2026
-    cgpa      = 7.90
-    based_in  = "Villupuram, Tamil Nadu 🇮🇳"
-
-    focus     = ["AI agents & LLM apps", "AI testing & evaluation",
-                 "computer vision", "full-stack web"]
-    languages = ["Python", "TypeScript", "JavaScript", "SQL", "PHP"]
-    open_to   = "new opportunities and collaborations"
-
-    def fun_fact(self):
-        return "I write tests for my tests."
-```
+<table>
+  <tr><td>🎓 <b>Studied</b></td><td>B.Tech Information Technology, Sri Manakula Vinayagar Engineering College, Puducherry</td></tr>
+  <tr><td>📅 <b>Graduated</b></td><td>2026, CGPA 7.90</td></tr>
+  <tr><td>📍 <b>Based in</b></td><td>Tamil Nadu, India 🇮🇳</td></tr>
+  <tr><td>💚 <b>Loves</b></td><td>AI &amp; LLM apps · computer vision · full-stack web · testing things until they break</td></tr>
+  <tr><td>🗣️ <b>Speaks</b></td><td>Python · TypeScript · JavaScript · SQL · PHP</td></tr>
+  <tr><td>🤝 <b>Open to</b></td><td>New opportunities and collaborations</td></tr>
+  <tr><td>⚡ <b>Fun fact</b></td><td>I write tests for my tests.</td></tr>
+</table>
 
 ---
 
-## 🔁 How I ship an LLM feature
-
-```mermaid
-flowchart LR
-    A(["💡 Idea"]) --> B["🤖 Agent<br/>tools · hybrid RAG · memory"]
-    B --> C["🛡️ Guardrails<br/>injection · PII · leaks"]
-    C --> D["🧪 Eval suite<br/>golden set × N runs"]
-    D --> E["⚖️ Judge<br/>different model family"]
-    E --> F["🔴 Red team<br/>attack success per category"]
-    F --> G{"🚦 Regression gate<br/>prompts × models vs baseline"}
-    G -- "drops below baseline" --> B
-    G -- "holds" --> H(["🚀 Merge"])
-    H --> I["📉 Drift monitor<br/>nightly"]
-    I -. "prod failure → new test case" .-> D
-
-    classDef build fill:#0E9F8E,stroke:#0B7A6E,color:#fff
-    classDef check fill:#1C3C3C,stroke:#0E9F8E,color:#fff
-    classDef gate fill:#F5A623,stroke:#B57700,color:#1C1C1C
-    class A,B,H build
-    class C,D,E,F,I check
-    class G gate
-```
-
----
-
-## 🧰 Tech arsenal
+## 🧰 Tools I reach for
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,ts,js,php,html,css&theme=dark" alt="Languages" /><br/>
-  <img src="https://skillicons.dev/icons?i=fastapi,flask,nextjs,tailwind,redis,sqlite&theme=dark" alt="Backend and web" /><br/>
+  <img src="https://skillicons.dev/icons?i=fastapi,flask,nextjs,react,tailwind,postgres,redis,sqlite&theme=dark" alt="Backend and web" /><br/>
   <img src="https://skillicons.dev/icons?i=pytorch,opencv,docker,aws,githubactions,vercel,postman,git&theme=dark" alt="ML and infra" />
 </p>
 
-<div align="center">
-
-**Agents & LLMs** &nbsp;
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
-![RAG](https://img.shields.io/badge/Hybrid_RAG-1C3C3C?style=flat-square)
-![Tool calling](https://img.shields.io/badge/Tool_Calling-1C3C3C?style=flat-square)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq-F55036?style=flat-square)
-
-**AI quality & testing** &nbsp;
-![DeepEval](https://img.shields.io/badge/DeepEval-0E9F8E?style=flat-square)
-![promptfoo](https://img.shields.io/badge/promptfoo-0E9F8E?style=flat-square)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![Locust](https://img.shields.io/badge/Locust-0E9F8E?style=flat-square)
-![Appium](https://img.shields.io/badge/Appium-662D91?style=flat-square&logo=appium&logoColor=white)
-
-**Vision** &nbsp;
-![YOLOv8](https://img.shields.io/badge/YOLOv8-111111?style=flat-square)
-![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-111111?style=flat-square&logo=onnx&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-
-</div>
+<p align="center">
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph" />
+  <img src="https://img.shields.io/badge/RAG-1C3C3C?style=for-the-badge" alt="RAG" />
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge" alt="Groq" />
+  <img src="https://img.shields.io/badge/YOLOv8-111F68?style=for-the-badge&logo=ultralytics&logoColor=white" alt="YOLOv8" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="pytest" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge" alt="Playwright" />
+</p>
 
 ---
 
 ## 🚀 Things I've built
 
-> Click a project to look under the hood.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<details>
-<summary><b>🧪 FanCare LLM Quality</b> · a support agent, and the platform that tries to break it</summary>
-<br/>
+### 🧪 [FanCare LLM Quality](https://github.com/Jrkrish/fancare-llm-quality "🔗 Open the repo")
+A support chatbot for a smart ceiling fan, and the test platform that tries to break it.
 
-**Repo:** [Jrkrish/fancare-llm-quality](https://github.com/Jrkrish/fancare-llm-quality)
+- Answers from product docs with citations, and checks orders, warranty and tickets through tools
+- Reads uploaded warranty cards with OCR
+- Evals, red-team attacks and a CI gate that blocks a worse prompt from merging
 
-- **Agent:** tool-calling loop over 5 tools (orders, warranty, recommendations, tickets, doc search) with injected timeouts, malformed and empty responses
-- **Retrieval:** BM25 + vector search + cross-encoder reranking over 19 product docs; every claim cites `[DOC-xx:n]`, and with no evidence it refuses
-- **Uploads:** pulls serial number, model and purchase date out of PDFs and photos with OCR, including noisy scans
-- **Guardrails:** a separate layer for prompt injection, PII redaction, system-prompt leaks and poisoned retrieved passages
-- **Evals:** 66-case golden set × N runs with variance, a judge from a different model family, hand-labelled judge calibration
-- **Red team:** 42 attack cases plus promptfoo, attack success rate per category
-- **CI:** regression gate across 3 prompt versions × 2 models blocks merges; nightly drift job
-- **Tests:** API (OpenAPI-validated), Playwright UI, Locust load, SQL data checks, Appium skeleton, flaky-test quarantine
+`FastAPI` `DeepEval` `promptfoo` `GitHub Actions`
 
-`FastAPI` `DeepEval` `promptfoo` `fastembed` `SQLite` `Docker` `GitHub Actions`
-</details>
+</td>
+<td width="50%" valign="top">
 
-<details>
-<summary><b>🛫 DevPilot</b> · from one requirement to a delivered project</summary>
-<br/>
+### 🛫 [DevPilot](https://github.com/Jrkrish/Devpilot-SDLC "🔗 Open the repo")
+Give it one requirement and it walks the whole software lifecycle.
 
-**Repo:** [Jrkrish/Devpilot-SDLC](https://github.com/Jrkrish/Devpilot-SDLC)
-
-- State-driven LangGraph workflow with conditional routing across the whole SDLC
-- Generates requirements, user stories, functional and technical design docs, code, security recommendations and test cases
-- Redis-backed state
+- Writes user stories, design docs, code, security notes and test cases
+- A LangGraph state machine routes each stage, with a human approve/feedback step in between
+- Every phase is saved as a downloadable Markdown file
 
 `LangGraph` `Redis` `Python`
-</details>
 
-<details>
-<summary><b>🤖 SDLC Agents</b> · a team of AI agents running the dev lifecycle</summary>
-<br/>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**Repo:** [Jrkrish/SDLC-Agents](https://github.com/Jrkrish/SDLC-Agents)
+### 🤖 [SDLC Agents](https://github.com/Jrkrish/SDLC-Agents "🔗 Open the repo")
+A team of AI agents that each own one step of building software.
 
-- AI agents automate the software development lifecycle end to end, driven from a Streamlit UI
+- Pick an LLM (Gemini, Groq or OpenAI), describe the project, and let the agents work
+- Produces user stories, specs, code, tests and a production-readiness check
+- Runs as a Streamlit app
 
-`Python` `Streamlit`
-</details>
+`Python` `Streamlit` `Gemini` `Groq`
 
-<details>
-<summary><b>📄 AI Resume Generator</b> · ATS-friendly resumes in minutes</summary>
-<br/>
+</td>
+<td width="50%" valign="top">
 
-**Repo:** [Jrkrish/Resume](https://github.com/Jrkrish/Resume)
+### 📄 [AI Resume Generator](https://github.com/Jrkrish/Resume "🔗 Open the repo")
+ATS-friendly resumes in minutes.
 
-- Gemini writes the content, PDFKit renders the PDF, Razorpay handles tiered payments
+- Gemini writes the content from your details
+- Instant PDF download rendered with PDFKit
+- Razorpay payments with multiple pricing tiers, mobile-friendly UI
 
 `Flask` `Gemini API` `Razorpay` `Tailwind`
-</details>
 
-<details>
-<summary><b>👁️ Wrinkle Detection</b> · YOLOv8 segmentation on faces</summary>
-<br/>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**Repo:** [Jrkrish/Wrinkle-Detection](https://github.com/Jrkrish/Wrinkle-Detection)
+### 👁️ [Wrinkle Detection](https://github.com/Jrkrish/Wrinkle-Detection "🔗 Open the repo")
+Finds and outlines wrinkles on a face photo.
 
-- YOLOv8s segmentation fine-tuned on 3 classes: forehead, frown, wrinkle
-- Upload a photo and get masks back in a Streamlit app
+- YOLOv8s segmentation fine-tuned on 3 classes: forehead, frown and wrinkle
+- Upload a photo in the Streamlit app and get masks drawn back on it
 
 `YOLOv8` `OpenCV` `Streamlit`
-</details>
 
-<details>
-<summary><b>🦴 Spine Segmentation</b> · finding vertebrae automatically</summary>
-<br/>
+</td>
+<td width="50%" valign="top">
 
-**Repo:** [Jrkrish/Yolo-Spine](https://github.com/Jrkrish/Yolo-Spine)
+### 🦴 [Spine Segmentation](https://github.com/Jrkrish/Yolo-Spine "🔗 Open the repo")
+Spots each vertebra on a spine scan automatically.
 
-- Detects the L1–L5 vertebrae and the S1 sacrum to cut manual annotation work in medical imaging
+- YOLOv8 detects L1 to L5 and the S1 sacrum and boxes each one
+- Built to cut the manual labelling work in medical imaging
 
-`YOLOv8` `Python`
-</details>
+`YOLOv8` `Python` `Streamlit`
 
-<details>
-<summary><b>🩺 Skin Cancer Prediction</b> · lesion classification on the web</summary>
-<br/>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-**Repo:** [Jrkrish/Skin-Cancer-Prediction](https://github.com/Jrkrish/Skin-Cancer-Prediction)
+### 🩺 [Skin Cancer Prediction](https://github.com/Jrkrish/Skin-Cancer-Prediction "🔗 Open the repo")
+A quick check on a photo of a skin lesion.
 
-- Flask app that classifies an uploaded skin-lesion image
+- Upload an image and a trained model classifies the lesion
+- Served through a simple Flask web app
 
-`Flask` `Python`
-</details>
+`Flask` `Python` `Jupyter`
 
-<details>
-<summary><b>🎨 Studio Infinity</b> · a studio site with motion</summary>
-<br/>
+</td>
+<td width="50%" valign="top">
 
-**Repo:** [Jrkrish/Company-Portfolio](https://github.com/Jrkrish/Company-Portfolio) · **Live:** [company-portfolio-sage.vercel.app](https://company-portfolio-sage.vercel.app/)
+### 🎨 [Studio Infinity](https://github.com/Jrkrish/Company-Portfolio "🔗 Open the repo")
+A minimalist site for a creative studio. **[See it live →](https://company-portfolio-sage.vercel.app/)**
 
-- Custom cursor, smooth animations, filterable portfolio, contact form with validation
+- Custom cursor, smooth page transitions and a dark, minimal look
+- Filterable portfolio and a validated contact form
 
 `Next.js 15` `TypeScript` `Tailwind`
-</details>
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🧪 Unit-testing myself
+## 🔀 Open pull request
 
-```console
-$ pytest tests/test_jayakrishnan.py -v
-test_builds_things_that_work ............. PASSED
-test_picks_up_new_stacks_fast ............ PASSED
-test_reads_the_docs_first ................ PASSED
-test_coffee_level ........................ PASSED  (critical)
-test_ships_without_tests ................. XFAIL   (never happens)
-test_gives_up_on_a_bug ................... XFAIL   (not in this lifetime)
+<table>
+<tr>
+<td>
 
-================= 4 passed, 2 xfailed in 0.42s =================
+<img src="https://img.shields.io/badge/%E2%86%B3_Open-2DA44E?style=flat-square" alt="Open" /> &nbsp;**Add Jayakrishnan to your team** <code>#2026</code>
+
+<sub>**jrkrish** wants to merge 1 commit into `your-team:main` from `jrkrish:class-of-2026`</sub>
+
+```diff
+  team = [
+      "you",
+      "your brilliant colleagues",
++     "Jayakrishnan",  # AI apps · computer vision · full-stack web
+  ]
 ```
 
+<details>
+<summary>✅ <b>All checks have passed</b> · 6 successful checks <sub>(click to view)</sub></summary>
+<br/>
+
+| | Check | Details |
+| :-: | --- | --- |
+| ✅ | `build / ships-real-projects` | 8 public projects, from YOLOv8 vision models to LLM agents |
+| ✅ | `learn / new-stacks-fast` | PHP in 2024 → YOLOv8, Flask, Next.js in 2025 → LangGraph agents in 2026 |
+| ✅ | `test / quality-gate` | Builds CI gates that block a merge when quality drops |
+| ✅ | `lint / reads-the-docs` | Docs first, Stack Overflow second, guessing never |
+| ✅ | `deploy / ready-to-start` | B.Tech IT, graduated 2026, open to opportunities |
+| ✅ | `fuel / filter-coffee` | Level: critical ☕ |
+
+</details>
+
+<details>
+<summary>💬 <b>1 review requested</b> · that's you <sub>(click to view)</sub></summary>
+<br/>
+
+> **Reviewer checklist**
+> - [x] Read the project cards above
+> - [x] Peeked at the GitHub stats below
+> - [ ] Said hello
+
+The last box is on you 👇
+</details>
+
+✔️ **This branch has no conflicts with the base branch.** Merging can be performed automatically.
+
+[![Merge pull request](https://img.shields.io/badge/Merge_pull_request-2DA44E?style=for-the-badge&logo=git&logoColor=white)](mailto:jayakrishxn@gmail.com?subject=Merging%20your%20pull%20request%20%232026)
+[![Request changes](https://img.shields.io/badge/Request_changes%3F_Let's_talk-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/krishinfowork/)
+
+</td>
+</tr>
+</table>
+
 ---
 
-## 📊 GitHub analytics
+## 📊 GitHub stats
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jrkrish&theme=github_dark" />
-  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jrkrish&theme=github" alt="Profile details and contribution graph" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Jrkrish&theme=github_dark" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Jrkrish&theme=github" alt="GitHub stats" />
-</picture>
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=Jrkrish&theme=github-dark-blue&hide_border=true&ring=0E9F8E&fire=0E9F8E&currStreakLabel=0E9F8E" />
-  <img width="49%" src="https://streak-stats.demolab.com/?user=Jrkrish&hide_border=true&ring=0E9F8E&fire=0E9F8E&currStreakLabel=0E9F8E" alt="GitHub streak" />
+  <img width="49%" src="https://streak-stats.demolab.com/?user=Jrkrish&hide_border=true&ring=0E9F8E&fire=0E9F8E&currStreakLabel=0E9F8E" alt="Total contributions and streaks" />
 </picture>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Jrkrish&theme=github_dark" />
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Jrkrish&theme=github" alt="Top languages by repo" />
 </picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Jrkrish&theme=github_dark" />
-  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Jrkrish&theme=github" alt="Top languages by commit" />
-</picture>
+
+<sub>🐍 and here's a snake eating my contribution graph, one green square at a time</sub>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Jrkrish/Jrkrish/output/github-snake-dark.svg" />
@@ -254,11 +240,12 @@ test_gives_up_on_a_bug ................... XFAIL   (not in this lifetime)
 
 <div align="center">
 
-**Building something with LLMs and want it to actually be reliable? Let's talk.**
+**Got an idea, a role, or just want to say hi? My inbox is open.**
 
 [![LinkedIn](https://img.shields.io/badge/Let's_connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/krishinfowork/)
 [![Email](https://img.shields.io/badge/Say_hello-0E9F8E?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jayakrishxn@gmail.com)
 
+
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1C3C3C,50:136F63,100:0E9F8E&height=120&section=footer" width="100%" alt="" />
+<img src="./assets/footer.svg" width="100%" alt="— 30 — That’s the end of this edition. Thanks for reading." />
