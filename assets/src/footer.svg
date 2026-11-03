@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="1200" height="160" role="img" aria-labelledby="t">
+  <title id="t">— 30 — That's the end of this edition. Thanks for reading.</title>
+  <!-- Fonts: Playfair Display (c) 2017 The Playfair Display Project Authors, IBM Plex Mono (c) 2017 IBM Corp. Both SIL Open Font License 1.1, embedded unmodified. -->
+
+  <defs>
+    <style>
+      @font-face { font-family: 'PF'; font-weight: 900; src: url({{FONT_PF900}}) format('woff2'); }
+      @font-face { font-family: 'PF'; font-weight: 400; font-style: italic; src: url({{FONT_PF400I}}) format('woff2'); }
+      @font-face { font-family: 'PM'; font-weight: 500; src: url({{FONT_PM500}}) format('woff2'); }
+
+      .serif { font-family: 'PF', Georgia, 'Times New Roman', serif; }
+      .mono  { font-family: 'PM', 'Courier New', monospace; font-weight: 500; }
+      .ink   { fill: #16130F; }
+
+      .rule { transform-box: fill-box; transform-origin: center; animation: rule .9s cubic-bezier(.2,.7,.2,1) both; }
+      .end  { animation: rise .8s ease-out .5s both; }
+      .sub  { animation: rise .8s ease-out .8s both; }
+      @keyframes rule { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+      @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    </style>
+
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 .10"/></feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="160" fill="#F2EADB"/>
+  <rect width="1200" height="160" filter="url(#grain)"/>
+
+  <rect class="rule ink" x="40" y="22" width="1120" height="2.5"/>
+  <rect class="rule ink" x="40" y="28" width="1120" height="1" style="animation-delay:.1s"/>
+
+  <text class="serif ink end" x="600" y="78" text-anchor="middle" font-size="36" font-weight="900">— 30 —</text>
+  <text class="serif ink sub" x="600" y="108" text-anchor="middle" font-size="19" font-style="italic">That’s the end of this edition. Thanks for reading.</text>
+
+  <rect class="rule ink" x="40" y="126" width="1120" height="1" style="animation-delay:.3s"/>
+  <g class="mono ink sub" font-size="12" letter-spacing="2.2">
+    <text x="40" y="146">PRINTED IN TAMIL NADU, INDIA</text>
+    <text x="1160" y="146" text-anchor="end">NEXT EDITION: WHEN THE NEXT REPO SHIPS</text>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 150" width="128" height="150" role="img" aria-labelledby="t">
+  <title id="t">This tab was already torn off</title>
+  <!-- Built by scripts/build-static.mjs from assets/src/tab-torn.svg. Font: Caveat, SIL OFL 1.1, embedded unmodified. -->
+
+  <defs>
+    <style>
+      @font-face { font-family: 'CV'; font-weight: 700; src: url({{FONT_CAV}}) format('woff2'); }
+      .hand { font-family: 'CV', 'Comic Sans MS', cursive; font-weight: 700; }
+      .note { transform-box: fill-box; transform-origin: center; animation: wobble 2.6s ease-in-out infinite alternate; }
+      @keyframes wobble { from { transform: rotate(-7deg); } to { transform: rotate(-2deg); } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } .note { transform: rotate(-5deg); } }
+    </style>
+  </defs>
+
+  <!-- the stub left behind -->
+  <path d="M8 0H120V16l-6 5-7-6-8 7-6-4-9 6-7-5-8 6-7-4-9 5-6-6-8 6-6-5-7 4z" fill="#FBF6EA"/>
+
+  <g class="note">
+    <text class="hand" x="64" y="70" font-size="25" fill="#E0483D" text-anchor="middle">someone</text>
+    <text class="hand" x="64" y="96" font-size="25" fill="#E0483D" text-anchor="middle">took one!</text>
+  </g>
+</svg>

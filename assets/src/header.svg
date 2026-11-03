@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" width="1200" height="430" role="img" aria-labelledby="t d">
+  <title id="t">The Jayakrishnan Times, {{DATE_TITLE}}</title>
+  <desc id="d">Rotating front page. Local grad builds AI that spots wrinkles, vertebrae and bugs. {{LIVE_DESC}} B.Tech IT, class of 2026. AI apps, computer vision and full-stack web. Tamil Nadu, India. Open to opportunities.</desc>
+  <!-- Built by scripts/build-header.mjs from assets/src/header.svg. Edit the template, not the output. -->
+  <!-- Fonts: Playfair Display (c) 2017 The Playfair Display Project Authors, IBM Plex Mono (c) 2017 IBM Corp. Both SIL Open Font License 1.1, embedded unmodified. -->
+
+  <defs>
+    <style>
+      @font-face { font-family: 'PF'; font-weight: 900; src: url({{FONT_PF900}}) format('woff2'); }
+      @font-face { font-family: 'PF'; font-weight: 700; src: url({{FONT_PF700}}) format('woff2'); }
+      @font-face { font-family: 'PF'; font-weight: 400; font-style: italic; src: url({{FONT_PF400I}}) format('woff2'); }
+      @font-face { font-family: 'PM'; font-weight: 500; src: url({{FONT_PM500}}) format('woff2'); }
+
+      .serif { font-family: 'PF', Georgia, 'Times New Roman', serif; }
+      .mono  { font-family: 'PM', 'Courier New', monospace; font-weight: 500; }
+      .ink   { fill: #16130F; }
+      .red   { fill: #B3261E; }
+
+      .rule   { transform-box: fill-box; transform-origin: center; animation: rule .9s cubic-bezier(.2,.7,.2,1) both; }
+      .mast   { animation: press 1s ease-out .25s both; }
+      .fade1  { animation: rise .7s ease-out .9s both; }
+      .fade2  { animation: rise .7s ease-out 1.4s both; }
+      .stamp  { transform-box: fill-box; transform-origin: center; animation: thump .45s cubic-bezier(.3,1.6,.5,1) 2.1s both; }
+      .ticker { animation: scroll {{TICKER_DUR}}s linear infinite; }
+      .blink  { animation: blink 1.2s steps(1) infinite; }
+
+      /* five stories, 5s each, on a 25s loop */
+      .story  { animation: story 25s linear infinite both; }
+      .s2 { animation-delay: 5s; }  .s3 { animation-delay: 10s; }
+      .s4 { animation-delay: 15s; } .s5 { animation-delay: 20s; }
+      .progress { transform-box: fill-box; transform-origin: left center; animation: progress 5s linear infinite; }
+
+      @keyframes rule     { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+      @keyframes press    { from { opacity: 0; letter-spacing: 14px; } to { opacity: 1; letter-spacing: 0; } }
+      @keyframes rise     { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+      @keyframes thump    { from { opacity: 0; transform: scale(2.4) rotate(-14deg); } to { opacity: .92; transform: scale(1) rotate(-14deg); } }
+      @keyframes scroll   { from { transform: translateX(0); } to { transform: translateX(-{{TICKER_SHIFT}}px); } }
+      @keyframes blink    { 50% { opacity: .25; } }
+      @keyframes progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+      @keyframes story {
+        0%       { opacity: 0; transform: translateY(12px); }
+        2.4%     { opacity: 1; transform: none; }
+        18%      { opacity: 1; transform: none; }
+        20%      { opacity: 0; transform: translateY(-8px); }
+        100%     { opacity: 0; transform: translateY(-8px); }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        * { animation: none !important; }
+        .stamp { opacity: .92; transform: rotate(-14deg); }
+        .story { opacity: 0; }
+        .s1 { opacity: 1; }
+        .progress { transform: scaleX(1); }
+      }
+    </style>
+
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 .10"/></feComponentTransfer>
+    </filter>
+    <radialGradient id="age" cx=".5" cy=".45" r=".75">
+      <stop offset=".6" stop-color="#7A5A2B" stop-opacity="0"/>
+      <stop offset="1" stop-color="#7A5A2B" stop-opacity=".16"/>
+    </radialGradient>
+    <clipPath id="band"><rect x="0" y="392" width="1200" height="38"/></clipPath>
+  </defs>
+
+  <!-- paper -->
+  <rect width="1200" height="430" fill="#F2EADB"/>
+  <rect width="1200" height="430" fill="url(#age)"/>
+  <rect width="1200" height="430" filter="url(#grain)"/>
+
+  <!-- dateline -->
+  <g class="mono ink" font-size="13" letter-spacing="2.2">
+    <text x="40" y="32">{{EDITION}}</text>
+    <text x="600" y="32" text-anchor="middle">{{DATELINE}}</text>
+    <text x="1160" y="32" text-anchor="end">PRICE: ONE FILTER COFFEE</text>
+  </g>
+  <rect class="rule ink" x="40" y="44" width="1120" height="2.5"/>
+  <rect class="rule ink" x="40" y="50" width="1120" height="1" style="animation-delay:.1s"/>
+
+  <!-- masthead -->
+  <text class="serif ink mast" x="590" y="134" text-anchor="middle" font-size="76" font-weight="900">The Jayakrishnan Times</text>
+
+  <rect class="rule ink" x="40" y="160" width="1120" height="1" style="animation-delay:.5s"/>
+  <rect class="rule ink" x="40" y="164" width="1120" height="2.5" style="animation-delay:.6s"/>
+  <text class="serif ink fade1" x="600" y="191" text-anchor="middle" font-size="19" font-style="italic">“All the code that’s fit to ship”</text>
+  <rect class="rule ink" x="40" y="205" width="1120" height="1" style="animation-delay:.8s"/>
+
+  <!-- story timer -->
+  <rect class="progress red" x="40" y="205" width="735" height="3"/>
+
+  <!-- rotating front-page stories -->
+  <g class="story s1">
+    <text class="mono red" x="40" y="240" font-size="13" letter-spacing="2.2"><tspan class="blink">●</tspan> BREAKING · COMPUTER VISION</text>
+    <text class="mono ink" x="775" y="240" font-size="13" letter-spacing="2.2" text-anchor="end" opacity=".55">01 / 05</text>
+    <g class="serif ink" font-weight="700" font-size="45">
+      <text x="38" y="292">Local grad builds AI that spots</text>
+      <text x="38" y="344">wrinkles, vertebrae and bugs</text>
+    </g>
+    <text class="serif ink" x="40" y="377" font-size="17" font-style="italic">By our tech desk · YOLOv8 models, fine-tuned and shipped as web apps</text>
+  </g>
+
+  <g class="story s2">
+    <text class="mono red" x="40" y="240" font-size="13" letter-spacing="2.2"><tspan class="blink">●</tspan> JUST IN · LIVE FROM GITHUB</text>
+    <text class="mono ink" x="775" y="240" font-size="13" letter-spacing="2.2" text-anchor="end" opacity=".55">02 / 05</text>
+    <g class="serif ink" font-weight="700" font-size="45">
+      <text x="38" y="292">{{LIVE_L1}}</text>
+      <text x="38" y="344">{{LIVE_L2}}</text>
+    </g>
+    <text class="serif ink" x="40" y="377" font-size="17" font-style="italic">{{LIVE_BYLINE}}</text>
+  </g>
+
+  <g class="story s3">
+    <text class="mono red" x="40" y="240" font-size="13" letter-spacing="2.2"><tspan class="blink">●</tspan> EXCLUSIVE · LLM QUALITY</text>
+    <text class="mono ink" x="775" y="240" font-size="13" letter-spacing="2.2" text-anchor="end" opacity=".55">03 / 05</text>
+    <g class="serif ink" font-weight="700" font-size="45">
+      <text x="38" y="292">Support bot cites its sources;</text>
+      <text x="38" y="344">its own tests try to break it</text>
+    </g>
+    <text class="serif ink" x="40" y="377" font-size="17" font-style="italic">FanCare · evals, red-teaming and a CI gate that blocks bad merges</text>
+  </g>
+
+  <g class="story s4">
+    <text class="mono red" x="40" y="240" font-size="13" letter-spacing="2.2"><tspan class="blink">●</tspan> TECH · AUTOMATION</text>
+    <text class="mono ink" x="775" y="240" font-size="13" letter-spacing="2.2" text-anchor="end" opacity=".55">04 / 05</text>
+    <g class="serif ink" font-weight="700" font-size="45">
+      <text x="38" y="292">AI agents take over the</text>
+      <text x="38" y="344">software lifecycle (politely)</text>
+    </g>
+    <text class="serif ink" x="40" y="377" font-size="17" font-style="italic">DevPilot &amp; SDLC Agents · stories, designs, code and tests from one requirement</text>
+  </g>
+
+  <g class="story s5">
+    <text class="mono red" x="40" y="240" font-size="13" letter-spacing="2.2"><tspan class="blink">●</tspan> CAREERS · HIRING</text>
+    <text class="mono ink" x="775" y="240" font-size="13" letter-spacing="2.2" text-anchor="end" opacity=".55">05 / 05</text>
+    <g class="serif ink" font-weight="700" font-size="45">
+      <text x="38" y="292">Fresh IT graduate open to work;</text>
+      <text x="38" y="344">recruiters advised to act fast</text>
+    </g>
+    <text class="serif ink" x="40" y="377" font-size="17" font-style="italic">Class of 2026 · Tamil Nadu, India · details in the classifieds</text>
+  </g>
+
+  <rect class="ink" x="790" y="222" width="1" height="158" opacity=".6"/>
+
+  <!-- classifieds -->
+  <g class="fade2">
+    <text class="mono ink" x="815" y="240" font-size="13" letter-spacing="2.2">CLASSIFIEDS</text>
+    <rect class="ink" x="815" y="250" width="345" height="1" opacity=".6"/>
+    <g class="serif ink" font-size="18">
+      <text x="815" y="279" font-weight="700">AVAILABLE NOW:</text>
+      <text x="815" y="304" font-style="italic">B.Tech IT graduate, class of 2026.</text>
+      <text x="815" y="328" font-style="italic">Builds AI apps, vision models</text>
+      <text x="815" y="352" font-style="italic">and full-stack web. Tests everything.</text>
+      <text x="815" y="377" font-weight="700">Inquire within.</text>
+    </g>
+  </g>
+
+  <!-- stamp -->
+  <g class="stamp" transform="rotate(-14 1110 106)">
+    <rect x="1062" y="84" width="96" height="44" rx="4" fill="none" stroke="#B3261E" stroke-width="3"/>
+    <rect x="1066" y="88" width="88" height="36" rx="2" fill="none" stroke="#B3261E" stroke-width="1"/>
+    <text class="serif" x="1110" y="115" text-anchor="middle" font-size="24" font-weight="900" fill="#B3261E" letter-spacing="1">EXTRA!</text>
+  </g>
+
+  <!-- ticker -->
+  <rect x="0" y="392" width="1200" height="38" fill="#16130F"/>
+  <g clip-path="url(#band)">
+    <g class="ticker mono" font-size="14" letter-spacing="1.5" fill="#F2EADB">
+      <text x="150" y="416" textLength="{{TICKER_LEN}}" lengthAdjust="spacing">{{TICKER}}</text>
+      <text x="{{TICKER_X2}}" y="416" textLength="{{TICKER_LEN}}" lengthAdjust="spacing">{{TICKER}}</text>
+    </g>
+  </g>
+  <rect x="0" y="392" width="134" height="38" fill="#B3261E"/>
+  <text class="mono" x="67" y="416" text-anchor="middle" font-size="14" letter-spacing="2.5" fill="#FFF">LATEST</text>
+</svg>
