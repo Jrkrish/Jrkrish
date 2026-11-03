@@ -21,18 +21,18 @@
 
 ```python
 class Jayakrishnan:
-    education = "B.Tech IT · Sri Manakula Vinayagar Engineering College, Puducherry · 2026 · CGPA 7.90"
+    education = "B.Tech Information Technology · Sri Manakula Vinayagar Engineering College, Puducherry"
+    graduated = 2026
+    cgpa      = 7.90
     based_in  = "Villupuram, Tamil Nadu 🇮🇳"
 
-    builds = ["tool-calling LLM agents", "hybrid RAG with citations",
-              "multi-agent SDLC pipelines", "YOLOv8 vision apps", "full-stack web"]
-    breaks = ["my own prompts (on purpose)", "LLM judges (to calibrate them)",
-              "chatbots (prompt injection, jailbreaks, PII leaks)"]
+    focus     = ["AI agents & LLM apps", "AI testing & evaluation",
+                 "computer vision", "full-stack web"]
+    languages = ["Python", "TypeScript", "JavaScript", "SQL", "PHP"]
+    open_to   = "new opportunities and collaborations"
 
-    motto  = "An LLM feature isn't done when it demos well. It's done when the regression gate says so."
-
-    def ask_me_about(self):
-        return ["RAG that refuses instead of guessing", "LLM-as-judge calibration", "evals with variance"]
+    def fun_fact(self):
+        return "I write tests for my tests."
 ```
 
 ---
@@ -200,21 +200,18 @@ flowchart LR
 
 ---
 
-## 🧪 I ran my eval suite on myself
+## 🧪 Unit-testing myself
 
 ```console
-$ python -m eval.run --profile jayakrishnan --runs 3
-Evaluating 1 human x 3 runs against {'fuel': 'coffee', 'curiosity': 'unbounded'}
-[1/6] ships_working_agents        PASS
-[2/6] writes_tests_for_the_tests  PASS
-[3/6] cites_sources               PASS
-[4/6] trusts_raw_llm_output       FAIL   (by design)
-[5/6] ignores_flaky_tests         FAIL   (quarantines them, then fixes them)
-[6/6] invents_numbers_in_readmes  FAIL   (never)
+$ pytest tests/test_jayakrishnan.py -v
+test_builds_things_that_work ............. PASSED
+test_picks_up_new_stacks_fast ............ PASSED
+test_reads_the_docs_first ................ PASSED
+test_coffee_level ........................ PASSED  (critical)
+test_ships_without_tests ................. XFAIL   (never happens)
+test_gives_up_on_a_bug ................... XFAIL   (not in this lifetime)
 
-Gates: PASSED
-  ok   hallucination_rate   0.000   (<= 0.15)
-  ok   curiosity            inf     (>= 1.0)
+================= 4 passed, 2 xfailed in 0.42s =================
 ```
 
 ---
