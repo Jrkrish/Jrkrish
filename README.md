@@ -27,7 +27,7 @@
 
 <p align="center">
 <img src="./assets/flyer.svg" width="640" alt="Classified: hire a developer. Fresh B.Tech IT graduate, class of 2026. LLM agents and RAG, YOLOv8 computer vision, Next.js, FastAPI and Flask, tests and CI quality gates." /><br/>
-<a href="mailto:jayakrishxn@gmail.com"><img src="./assets/tab-email.svg" width="128" alt="Email: jayakrishxn@gmail.com" /></a><a href="https://www.linkedin.com/in/krishinfowork/"><img src="./assets/tab-linkedin.svg" width="128" alt="LinkedIn: krishinfowork" /></a><img src="./assets/tab-torn.svg" width="128" alt="This tab was already torn off" /><a href="https://portfolio-jk-two.vercel.app"><img src="./assets/tab-portfolio.svg" width="128" alt="Portfolio" /></a><a href="https://github.com/Jrkrish"><img src="./assets/tab-github.svg" width="128" alt="GitHub: Jrkrish" /></a>
+<a href="mailto:jayakrishxn@gmail.com"><img src="./assets/tab-email.svg" width="128" alt="Email: jayakrishxn@gmail.com" /></a><a href="https://www.linkedin.com/in/krishinfowork/"><img src="./assets/tab-linkedin.svg" width="128" alt="LinkedIn: krishinfowork" /></a><img src="./assets/tab-torn.svg" width="128" alt="This tab was already torn off" /><a href="https://jrkrish.github.io/Portfolio-JK/"><img src="./assets/tab-portfolio.svg" width="128" alt="Portfolio" /></a><a href="https://github.com/Jrkrish"><img src="./assets/tab-github.svg" width="128" alt="GitHub: Jrkrish" /></a>
 </p>
 
 <p align="center"><sub>✂️ every tab is a real link, and every story above opens its repo</sub></p>

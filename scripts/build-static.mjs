@@ -272,7 +272,7 @@ function story(s, i) {
 const TABS = [
   { file: "tab-email.svg", LABEL: "EMAIL", DETAIL: "jayakrishxn@gmail.com" },
   { file: "tab-linkedin.svg", LABEL: "LINKEDIN", DETAIL: "in/krishinfowork" },
-  { file: "tab-portfolio.svg", LABEL: "PORTFOLIO", DETAIL: "portfolio-jk-two" },
+  { file: "tab-portfolio.svg", LABEL: "PORTFOLIO", DETAIL: "jrkrish.github.io" },
   { file: "tab-github.svg", LABEL: "GITHUB", DETAIL: "github.com/Jrkrish" },
 ];
 

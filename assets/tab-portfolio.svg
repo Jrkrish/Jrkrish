@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 150" width="128" height="150" role="img" aria-labelledby="t">
-  <title id="t">PORTFOLIO: portfolio-jk-two</title>
+  <title id="t">PORTFOLIO: jrkrish.github.io</title>
   <!-- Built by scripts/build-static.mjs from assets/src/tab.svg. Fonts: Playfair Display, IBM Plex Mono, SIL OFL 1.1, embedded unmodified. -->
 
   <defs>
@@ -34,7 +34,7 @@
 
     <g transform="translate(64 142) rotate(-90)">
       <text class="serif" x="0" y="-6" font-size="19" fill="#16130F">PORTFOLIO</text>
-      <text class="mono" x="0" y="14" font-size="9.5" fill="#16130F" opacity=".75">portfolio-jk-two</text>
+      <text class="mono" x="0" y="14" font-size="9.5" fill="#16130F" opacity=".75">jrkrish.github.io</text>
     </g>
   </g>
 </svg>
