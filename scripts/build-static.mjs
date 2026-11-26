@@ -274,6 +274,8 @@ const TABS = [
   { file: "tab-linkedin.svg", LABEL: "LINKEDIN", DETAIL: "in/krishinfowork" },
   { file: "tab-portfolio.svg", LABEL: "PORTFOLIO", DETAIL: "jrkrish.github.io" },
   { file: "tab-github.svg", LABEL: "GITHUB", DETAIL: "github.com/Jrkrish" },
+  // The longest detail, set a size down so it clears the link mark.
+  { file: "tab-coffee.svg", LABEL: "COFFEE", DETAIL: "buymeacoffee.com/jrkrish", DSIZE: 8.5 },
 ];
 
 const TEMPLATE_FONTS = {
@@ -295,9 +297,8 @@ save("profile.svg", profilePage());
 save("markets.svg", marketsPage());
 STORIES.forEach((s, i) => save(s.file, story(s, i)));
 save("flyer.svg", fromTemplate("flyer.svg"));
-save("tab-torn.svg", fromTemplate("tab-torn.svg"));
-TABS.forEach(({ file, LABEL, DETAIL }, i) =>
-  save(file, fromTemplate("tab.svg", { LABEL: esc(LABEL), DETAIL: esc(DETAIL), SWAY: (2.4 + i * 0.37).toFixed(2), DELAY: (i * -0.6).toFixed(1) })),
+TABS.forEach(({ file, LABEL, DETAIL, DSIZE = 9.5 }, i) =>
+  save(file, fromTemplate("tab.svg", { LABEL: esc(LABEL), DETAIL: esc(DETAIL), DSIZE, SWAY: (2.4 + i * 0.37).toFixed(2), DELAY: (i * -0.6).toFixed(1) })),
 );
 save("footer.svg", fromTemplate("footer.svg"));
 

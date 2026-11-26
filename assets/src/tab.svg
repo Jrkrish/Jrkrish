@@ -34,7 +34,7 @@
 
     <g transform="translate(64 142) rotate(-90)">
       <text class="serif" x="0" y="-6" font-size="19" fill="#16130F">{{LABEL}}</text>
-      <text class="mono" x="0" y="14" font-size="9.5" fill="#16130F" opacity=".75">{{DETAIL}}</text>
+      <text class="mono" x="0" y="14" font-size="{{DSIZE}}" fill="#16130F" opacity=".75">{{DETAIL}}</text>
     </g>
   </g>
 </svg>
